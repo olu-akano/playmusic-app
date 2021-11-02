@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const FeaturedArticle = ({ story }) => {
-    return ( 
+    return (
         <article aria-label="featured story" id="feature">
             <h3>{story.name}</h3>
             <em>
@@ -11,3 +11,4 @@ export const FeaturedArticle = ({ story }) => {
         </article>
     )
 }
+

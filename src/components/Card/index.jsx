@@ -9,8 +9,11 @@ export const Card = ({ size, name, genre, intro }) => {
                 <h3>{name}</h3>
                 <em>{genre}</em>
                 <h4>{intro}</h4>
+                <div>
                 <LikeButton/>
+                </div>
             </div>
+            
         </>
     )
 }
