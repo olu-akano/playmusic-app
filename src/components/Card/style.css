@@ -6,6 +6,10 @@
     padding: 20px;
     opacity: 0.6;
     font-family: monospace;
+    flex-direction: column;
+    display:inline-flex;
+    align-items: center;
+    margin: 0 20px;
 }
 
 .card:hover {
