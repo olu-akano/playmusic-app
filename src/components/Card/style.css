@@ -1,0 +1,23 @@
+.card {
+    height: 150px;
+    width: 150px;
+    background-color: skyblue;
+    color: black;
+    padding: 20px;
+    opacity: 0.6;
+    font-family: monospace;
+}
+
+.card:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.card.small {
+    height: 120px;
+    width: 120px;
+}
+.card.large {
+    height: 200px;
+    width: 200px;
+}
