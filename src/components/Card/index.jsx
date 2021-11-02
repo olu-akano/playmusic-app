@@ -10,8 +10,7 @@ export const Card = ({ size, name, genre, intro }) => {
                 <em>{genre}</em>
                 <h4>{intro}</h4>
                 <LikeButton/>
-        </div>
+            </div>
         </>
     )
 }
-const index = document.getElementById('root')

@@ -13,11 +13,13 @@ export const Playlists = () => {
     const renderPlaylists = () => musicList.map((m, i) => <Card key ={i} name={m.name} genre={m.genre} intro={m.intro}/>)
 
     return (
-        <section id="playlists">
-            <h2>Choose an artist</h2>
-            <ol>
-                { renderPlaylists() }
-            </ol>
-        </section>
+        <>
+            <section id="playlists">
+                <h2>Choose an artist</h2>
+                <ol>
+                    { renderPlaylists() }
+                </ol>
+            </section>
+        </>
     )
 }
