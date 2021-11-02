@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --mode development --config config/dev.webpack.config.js",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production --config config/prod.webpack.config.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "jest --watchAll --env=jsdom --setupFilesAfterEnv ./src/test/setupTest.js",
