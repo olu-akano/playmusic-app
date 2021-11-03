@@ -29,7 +29,8 @@ export const Playlists = () => {
     return (
         <>
             <section id="playlists">
-                <h2>Choose an artist</h2>
+                <h2>Top Songs</h2>
+                <p class="artistText">Hover over the artists</p>
                 <ol>
                     { renderPlaylists() }
                 </ol>
