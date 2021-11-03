@@ -1,16 +1,20 @@
-.Navbar {
+nav {
     width: 100vw;
+    top:0;
     position: fixed;
-    background-color: beige;
-    padding: 30px;
+    background-color: rgb(65, 65, 7);
+    padding: 7px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
     color: rgb(85, 0, 0);
+    font-size: 0.9rem;
+    opacity: 0.6;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:hover {
