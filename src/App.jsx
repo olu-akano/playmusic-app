@@ -1,11 +1,13 @@
 import React from 'react';
 import { Playlists } from './components/Playlists';
 import {FeaturedArticle} from './components/FeaturedArticle/index'
+import { Header } from './layout/Header'
 
 function App() {
     return (
         <>
-            <h1>Full of Vibes Playlist</h1>
+            <Header />
+            <h1>Full of Vibes Playlist ♫</h1>
             
             
             
