@@ -5,14 +5,16 @@ body {
     background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
     font-family: 'Poppins', sans-serif;
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 3rem;
-    font-weight: bold;
 }
 
 h2 {
@@ -23,26 +25,67 @@ h2 {
 h3 {    
     text-align: center;
     color: red;
+    font-size: 1.5rem;
 }
 
-.card {
-    height: 150px;
-    width: 150px;
-    background-color: skyblue;
-    color: black;
-    padding: 20px;
-    opacity: 0.6;
+em {
+    font-size: 1rem;
+    color: orangered;
+}
+
+h4 {
+    padding: 0px 5px;
+    font-size: 1rem;
+}
+
+.heartBtn {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.likeBtn {
+    margin: auto;
+}
+
+
+.cardCont {
+    height: 260px;
+    width: 240px;
+    background-color: rgb(135, 207, 235);
     font-family: monospace;
     flex-direction: column;
     display:inline-flex;
     align-items: center;
-    margin: 0 20px;
-    margin-bottom: 10px;
+    box-shadow: 3px 3px 5px rgba(34, 29, 29, 0.342);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px 17px;
+    text-align: center;
+    overflow:hidden;
+}
+
+.card {
+    color: black;
+    background-color: skyblue;
+    opacity: 0.7;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 3px;
+    border-radius: 5px;
+    height: 220px;
+    width: 100%;
+    padding: 5px 5px 0 5px;
 }
 
 .card:hover {
     opacity: 1;
     cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+
+.imgCss:hover {
+    opacity: 1;
 }
 
 .card.small {
@@ -52,4 +95,23 @@ h3 {
 .card.large {
     height: 200px;
     width: 200px;
+}
+
+.imgCss {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 220px;
+    width: 190px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+.footer {
+    font-size: 1rem;
+    text-align: center;
 }
