@@ -9,6 +9,6 @@ export const LikeButton = () => {
     }
 
     return(
-        <span role="switch" onClick={handleFave} style={{ color: liked ? 'red' : 'grey'}}>❤</span>
+        <span role="switch" onClick={handleFave} className="heartBtn" style={{ color: liked ? 'red' : 'grey'}}>❤</span>
     );
 }

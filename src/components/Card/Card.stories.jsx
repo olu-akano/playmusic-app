@@ -17,6 +17,9 @@ export default {
         },
         intro: {
             control: 'text'
+        },
+        img: {
+            control: 'image'
         }
     }
 }
@@ -28,7 +31,8 @@ Default.args = {
     size: 'small',
     name: 'Davido',
     genre: 'Afrobeats',
-    intro: 'Song by a popular Nigerian musician'
+    intro: 'Song by a popular Nigerian musician',
+    img: "https://www.nme.com/wp-content/uploads/2020/11/Davido-696x442.jpg"
 }
 
 export const Small = Template.bind({});
