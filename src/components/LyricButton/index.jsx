@@ -12,6 +12,7 @@ export const LyricButton = () => {
             try {
                 let options = { headers: {'Accept': 'application/json'} }
                let { data } = await axios.get(`https://api.lyrics.ovh/v1/${name}/${info}`, options)
+               console.log(data)
                setShowLyrics(data.lyrics)
             } catch (err) {
                 console.warn(err);
@@ -21,4 +22,17 @@ export const LyricButton = () => {
 
         fetchLyrics();
     }, [])
+
+    return (
+        <>
+        <button>Lyrics</button>
+        { setShowLyrics ?
+            <>
+            <div>{setShowLyrics}</div>
+            </>
+        : <h3>Lyrics coming right up!</h3>
+        }
+        </>
+    )
+
 }
