@@ -2,10 +2,6 @@ import React, {useState} from 'react';
 import '../Card/style.css';
 import {LikeButton} from '../LikeButton/index'
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 3ab84e6b0ca56fc035e257c61ef9d8e47e628359
 export const Card = ({ size, name, genre, intro, img }) => {
     return (
         <>
