@@ -2,7 +2,7 @@ import React from 'react';
 import {Playlist} from './Playlist'
 import { Card } from './Card';
 
-const musicList = [
+export const musicList = [
     { name: "Davido", genre: "Afrobeats", intro: "One of the biggest afrobeats pioneers" },
     { name: "VybzKartel", genre: "Dancehall", intro: "Legend still releases bangers from jail" },
     { name: "Nailah Blackman", genre: "Soca", intro: "23-year old artist in Trinidad & Tobago" },
