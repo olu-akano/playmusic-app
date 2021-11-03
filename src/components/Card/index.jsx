@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../Card/style.css';
 import {LikeButton} from '../LikeButton/index'
+
 
 export const Card = ({ size, name, genre, intro, img }) => {
     return (
@@ -17,7 +18,6 @@ export const Card = ({ size, name, genre, intro, img }) => {
                     <LikeButton/>
                 </div>
             </div>
-            
         </>
     )
 }
