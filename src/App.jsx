@@ -7,7 +7,7 @@ function App() {
     return (
         <>
             <Header />
-            <h1>Full of Vibes Playlist</h1>
+            <h1>Full of Vibes Playlist ♫</h1>
             
             
             
