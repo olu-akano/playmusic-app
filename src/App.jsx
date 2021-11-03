@@ -10,14 +10,11 @@ function App() {
             
             
             <Playlists />
-<<<<<<< HEAD
-=======
            
            <div className="footer">
                 <p>Olu & Zerh</p>
            </div>
 
->>>>>>> 67b22e2486483f3f9ad21ae86082273543cca763
         
         </>
     )

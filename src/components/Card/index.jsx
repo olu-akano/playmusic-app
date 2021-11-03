@@ -2,24 +2,6 @@ import React, {useState} from 'react';
 import '../Card/style.css';
 import {LikeButton} from '../LikeButton/index'
 
-<<<<<<< HEAD
-export const Card = ({ size, name, genre, intro }) => {
-    const [showIntro, setshowIntro] =useState();
-
-    const mouseEnter = () => setshowIntro(true);
-    const mouseLeave = () => setshowIntro(false);
-
-    return (
-        <>
-            <div className={`card ${size}`}
-            onMouseEnter={mouseEnter}
-            onMouseLeave={mouseLeave}>
-                <h3>{name}</h3>
-                <em>{genre}</em>
-                <h4>{showIntro ? intro: "Hover for more..."}</h4>
-                <LikeButton/>
-            </div>
-=======
 export const Card = ({ size, name, genre, intro, img }) => {
     return (
         <>
@@ -35,8 +17,6 @@ export const Card = ({ size, name, genre, intro, img }) => {
                     <LikeButton/>
                 </div>
             </div>
-            
->>>>>>> 67b22e2486483f3f9ad21ae86082273543cca763
         </>
     )
 }
