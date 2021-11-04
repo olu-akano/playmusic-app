@@ -1,6 +1,6 @@
 import React from 'react';
-import {Playlist} from './Playlist'
 import { Card } from './Card';
+
 
 const musicList = [
     { name: "Davido", genre: "Afrobeats", info: "If", img: "https://www.nme.com/wp-content/uploads/2020/11/Davido-696x442.jpg" },

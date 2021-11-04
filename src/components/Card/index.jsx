@@ -16,7 +16,6 @@ export const Card = ({ size, name, genre, intro, img }) => {
                 </div>
                 <div className="likeBtn">
                     <LikeButton/>
-                    <LyricButton />
                 </div>
             </div>
         </>
