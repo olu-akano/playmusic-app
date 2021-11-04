@@ -3,7 +3,7 @@ import { Card } from './Card';
 
 
 const musicList = [
-    { name: "Davido", genre: "Afrobeats", info: "If", img: "https://www.nme.com/wp-content/uploads/2020/11/Davido-696x442.jpg" },
+    { name: "Davido", genre: "Afrobeats", intro: "If", img: "https://www.nme.com/wp-content/uploads/2020/11/Davido-696x442.jpg" },
     { name: "Vybz Kartel", genre: "Dancehall", intro: "Romping shop", img: "https://www.dancehallusa.com/wp-content/uploads/2015/01/vybz-kartel-jamaican-artiste_0.png"},
     { name: "Nailah Blackman", genre: "Soca", intro: "Baila Mami", img: "https://i1.sndcdn.com/avatars-000718551907-elxon2-t500x500.jpg"},
     { name: "Kes", genre: "Soca", intro: "Hello", img: "https://socanews.com/wp-content/uploads/2020/10/Kes-The-band-Kes-pointing.jpg" },
