@@ -121,3 +121,8 @@ h4 {
     margin-left: 55px;
     color: grey;
 }
+
+.introMsg {
+    text-align: center;
+    margin-top: -20px;
+}

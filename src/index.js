@@ -26,7 +26,7 @@ function myReducer(state=initState, action){
     }
 }
 
-let store = createStore(myReducer);
+let store = createStore(myReducer, devToolsEnhancer());
 
 ReactDOM.render(
     <React.StrictMode>
