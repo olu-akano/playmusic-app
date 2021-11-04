@@ -2,12 +2,17 @@ import React from 'react';
 import { Playlists } from './components/Playlists';
 import {FeaturedArticle} from './components/FeaturedArticle/index'
 import { Header } from './layout/Header'
+import { useSelector } from 'react-redux';
 
 function App() {
+    const username = useSelector((store) => store.username);
+    const location = useSelector((store) => store.location);
+
     return (
         <>
             <Header />
             <h1>Full of Vibes Playlist ♫</h1>
+            <p>{username} is in {location}</p>
             
             
             
