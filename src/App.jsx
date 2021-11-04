@@ -12,7 +12,7 @@ function App() {
         <>
             <Header />
             <h1>Full of Vibes Playlist ♫</h1>
-            <p className="introMsg">{username} is in {location}</p>
+            <p className="introMsg">{username} is listening from {location}</p>
             
             
             
