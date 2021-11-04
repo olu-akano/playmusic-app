@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
+import { devToolsEnhancer } from 'redux-devtools-extension';
 
 
 import App from './App';
@@ -17,7 +18,9 @@ let initState = {
 function myReducer(state=initState, action){
     switch(action.type){
         case 'UPDATE_USERNAME':
-            return { ...state, username: "Vix"}
+            return { ...state, username: action.payload };
+        case 'UPDATE_LOCATION':
+            return { ...state, location: action.payload };
         default:
             return state;
     }
