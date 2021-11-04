@@ -1,9 +1,10 @@
 import React from 'react'
+import { Card } from './Card'
 
-export const Playlist = ({name, genre, intro}) => {
+export const Playlist = () => {
     return (
         <li>
-            <strong>{name}</strong> sings {genre}. Quick fact: <em> {intro} </em>
+            <strong>{m.name}</strong> sings {genre}. Quick fact: <em> {intro} </em>
         </li>
     )
 }

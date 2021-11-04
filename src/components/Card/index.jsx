@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import '../Card/style.css';
 import {LikeButton} from '../LikeButton/index'
-
+import { LyricButton } from '../LyricButton';
 
 export const Card = ({ size, name, genre, intro, img }) => {
     return (

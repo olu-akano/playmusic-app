@@ -16,8 +16,6 @@ function App() {
            <div className="footer">
                 <p>Olu & Zerh</p>
            </div>
-
-        
         </>
     )
 };
