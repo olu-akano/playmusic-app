@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import '../Card/style.css';
 import {LikeButton} from '../LikeButton/index'
 import { LyricButton } from '../LyricButton';
+import { Lyrics } from '../Lyrics';
 
 export const Card = ({ size, name, genre, intro, img }) => {
     return (
@@ -17,6 +18,9 @@ export const Card = ({ size, name, genre, intro, img }) => {
                 <div className="likeBtn">
                     <LikeButton/>
                 </div>
+            </div>
+            <div aria-label='lyrics' style={{margin: "10px", color: "black", whiteSpace: "pre-wrap"}}>
+                <Lyrics name={name} intro={intro}/>
             </div>
         </>
     )
