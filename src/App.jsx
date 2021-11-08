@@ -3,18 +3,16 @@ import { Playlists } from './components/Playlists';
 import {FeaturedArticle} from './components/FeaturedArticle/index'
 import { Header } from './layout/Header'
 import { useSelector } from 'react-redux';
-import { LyricButton } from './components/LyricButton';
+
 
 function App() {
-    const name = useSelector((store) => store.name);
-    const genre = useSelector((store) => store.genre);
-    const intro = useSelector((store) => store.intro);
-    
+    const username = useSelector((store) => store.username);
+    const location = useSelector((store) => store.location);
     return (
         <>
             <Header />
             <h1>Full of Vibes Playlist ♫</h1>
-            <h2>{name} is the {genre}, his best song is {intro}</h2>
+            <p className="introMsg">{username} is in {location}</p>
             <Playlists />
            
            <div className="footer">

@@ -7,26 +7,26 @@ import { devToolsEnhancer } from 'redux-devtools-extension';
 
 import App from './App';
 
+// define inital state (redux)
 let initState = {
-    name: 'Young Thug',
-    genre: 'GOAT',
-    intro: 'Killed Before'
+    username: 'Bob',
+    location: 'London'
 }
 
-function myReducer (state =initState, action) {
-    switch (action.type) {
-        case 'UPDATE_NAME':
-            return {...state, name: action.payload}
-        case 'UPDATE_GENRE':
-            return {...state, genre: action.payload}
-        case 'UPDATE_INTRO':
-            return {...state, intro: action.payload }
-            default:
-                return state;
-             }
+//create reducer function
+function myReducer(state=initState, action){
+    switch(action.type){
+        case 'UPDATE_USERNAME':
+            return { ...state, username: action.payload };
+        case 'UPDATE_LOCATION':
+            return { ...state, location: action.payload };
+        default:
+            return state;
+    }
 }
 
-let store = createStore(myReducer, devToolsEnhancer())
+let store = createStore(myReducer, devToolsEnhancer());
+
 
 ReactDOM.render(
     <React.StrictMode>
