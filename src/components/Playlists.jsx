@@ -1,8 +1,7 @@
 import React from 'react';
 import { Card } from './Card';
 
-
-const musicList = [
+export const musicList = [
     { name: "Davido", genre: "Afrobeats", intro: "If", img: "https://www.nme.com/wp-content/uploads/2020/11/Davido-696x442.jpg" },
     { name: "Vybz Kartel", genre: "Dancehall", intro: "Romping shop", img: "https://www.dancehallusa.com/wp-content/uploads/2015/01/vybz-kartel-jamaican-artiste_0.png"},
     { name: "Nailah Blackman", genre: "Soca", intro: "Baila Mami", img: "https://i1.sndcdn.com/avatars-000718551907-elxon2-t500x500.jpg"},
@@ -18,7 +17,6 @@ const musicList = [
     { name: "Shenseea", genre: "Dancehall", intro: "Shen yeng anthem", img: "https://i1.sndcdn.com/avatars-tbWDeT7ajJAqjPvZ-dhjBkA-t500x500.jpg" },
     { name: "Maleek Berry", genre: "Afrobeats", intro: "Kontrol", img: "https://dynamicmedia.livenationinternational.com/Media/n/v/v/11ffffdd-0fa4-482b-854c-944dfdc7ff88.jpg" },
     { name: "Sean Paul", genre: "Dancehall", intro: "Gimme The Light", img: "https://pbs.twimg.com/profile_images/1085955424342425601/3pqRRO9n.jpg" },
-    
 ];
 
 

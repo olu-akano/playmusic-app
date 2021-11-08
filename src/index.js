@@ -5,7 +5,6 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import { devToolsEnhancer } from 'redux-devtools-extension';
 
-
 import App from './App';
 
 // define inital state (redux)
@@ -28,13 +27,14 @@ function myReducer(state=initState, action){
 
 let store = createStore(myReducer, devToolsEnhancer());
 
+
 ReactDOM.render(
     <React.StrictMode>
         <Provider store={store}>
             <Router>
                 <App />
             </Router>
-        </Provider>    
+        </Provider>
     </React.StrictMode>,
     document.getElementById('root')
 );
